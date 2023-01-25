@@ -20,6 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/prompt-cli": "^17.4.2",
     "@jridgewell/sourcemap-codec": "^1.4.14",
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
