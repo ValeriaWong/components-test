@@ -9,7 +9,7 @@
 
 module.exports = {
   // this controls whether to abort the test execution when an assertion failed and skip the rest
-  // it's being used in waitFor commands and expect assertions
+  // it"s being used in waitFor commands and expect assertions
   abortOnAssertionFailure: true,
 
   // this will overwrite the default polling interval (currently 500ms) for waitFor commands
@@ -20,26 +20,25 @@ module.exports = {
   // expect assertions
   waitForConditionTimeout: 5000,
 
-  'default': {
+  default: {
     /*
     The globals defined here are available everywhere in any test env
     */
-
     /*
     myGlobal: function() {
-      return 'I\'m a method';
+      return "I\"m a method";
     }
     */
   },
 
-  'firefox': {
+  firefox: {
     /*
     The globals defined here are available only when the chrome testing env is being used
        i.e. when running with --env firefox
     */
     /*
      * myGlobal: function() {
-     *   return 'Firefox specific global';
+     *   return "Firefox specific global";
      * }
      */
   },
@@ -55,7 +54,7 @@ module.exports = {
    */
   /*
   before(cb) {
-    //console.log('global before')
+    //console.log("global before")
     cb();
   },
   */
@@ -65,7 +64,7 @@ module.exports = {
    */
   /*
   beforeEach(browser, cb) {
-    //console.log('global beforeEach')
+    //console.log("global beforeEach")
     cb();
   },
   */
@@ -76,7 +75,7 @@ module.exports = {
   /*
   afterEach(browser, cb) {
     browser.perform(function() {
-      //console.log('global afterEach')
+      //console.log("global afterEach")
       cb();
     });
   },
@@ -87,7 +86,7 @@ module.exports = {
    */
   /*
   after(cb) {
-    //console.log('global after')
+    //console.log("global after")
     cb();
   },
   */
@@ -101,4 +100,4 @@ module.exports = {
     cb();
   }
    */
-}
+};
